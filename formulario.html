@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body id="form_body">
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="form_main">
+
+        <section class="title">
+            <h2>Contacto</h2>
+        </section>
+
+        <section class="content">
+
+            <p>
+                Si querés contactar con nosotros por alguna consulta o duda, puedes hacerlo a traves de nuestro correo en: <a href="mailto:info@charlygarcia.com">info@charlygarcia.com</a>.
+            </p>
+
+            <br>
+
+            <p>
+                Como también, podés completar el siguiente formulario para suscribirte a nuestro <span lang="en">Newsletter</span>, seleccionando tus intereses.
+            </p>
+
+            <br>
+            
+            <form class="form-contact" action="gracias.html" method="get">
+                <label for="nombres">Nombres</label>
+                <input type="text" class="controls" name="nombres" id="nombres">
+
+                <label for="apellidos">Apellido</label>
+                <input type="text" class="controls" name="apellidos" id="apellidos">
+
+                <label for="email">e-mail</label>
+                <input type="email" class="controls" name="email" id="email">
+                
+                <br>
+                
+                <label for="interests">Intereses:</label>
+                
+                <br>
+                
+                <label for="musica">Shows</label>
+                <input type="checkbox" id="shows" name="interests" value="shows">
+                
+                <label for="lectura">Nueva discografía</label>
+                <input type="checkbox" id="nDiscografia" name="interests" value="nDiscografia">
+                
+                <label for="cine">Entrevistas</label>
+                <input type="checkbox" id="entrevistas" name="interests" value="entrevistas">
+                
+                <label for="deportes">Merchandising</label>
+                <input type="checkbox" id="merchandising" name="interests" value="merchandising">
+                            
+                <br>
+
+                <p>
+                    Podés dejarnos tu opinión aquí debajo:
+                </p>
+
+                <label for="comentarios"></label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                
+                <br>
+
+                <label for="archivo">Si eres miembro del club de fans, por favor adjunta una imágen de tu credencial</label>
+                <input type="file" class="files" name="archivo" id="archivo">
+
+                <input type="checkbox" name="accept" id="accept"> <span id="accept">Acepto que me contacten por el mail proporcionado</span>
+
+                <br>
+                
+                <input class="buttons" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer id="form_footer">
+        <p>&copy; 2024 Charly García. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
