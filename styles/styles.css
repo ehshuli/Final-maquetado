@@ -526,6 +526,9 @@ textarea {
     margin-bottom: 20px;
     width: auto;
     height: auto;
+    margin-bottom: 30px;
+    align-items: center;
+    box-shadow: #333 5px 5px 5px 5px;
 }
 
 #gracias_h1 {
