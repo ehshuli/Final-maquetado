@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discografia</title>
+  
+ 
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+ 
 </head>
 
 <body id="discografia_body">
-
   <header>
-    <nav>
+    <nav class="nav">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="discografia.html">Discografía</a></li>
@@ -24,14 +26,13 @@
 
   <main id="discografia_main">
 
-    <h1 class="discografia_h1">Discografía</h1>
-
-    <article class="discografia_article">
-
-      <h3 class="discografia_h3">Yendo de la cama al living</h3>
+    <h1 id="discografia_h1">Discografía</h1>
+  
+      <article class="discografia_article">
+   
+      <h3 id="discografia_h3-1">Yendo de la cama al living</h3>
         
-      
-        
+     
       <p>
         Primer album de estudio en solitario grabó el material en agosto de
         1982, durante el último año de la última dictadura cívico-militar
@@ -49,9 +50,15 @@
         Su disco se compone principalmente de los siguientes géneros:
         <strong>Pop rock, art pop, pop progresivo y new wave.</strong>
       </p>
-        
-      <img src="./img/Yendo.jpg" alt="Disco 1">
-
+            
+      
+     
+      <picture>
+        <source srcset="img/Yendorespo.jpg" media="(max-width: 480px)" >
+        <img src="img/Yendo.jpg" alt="Disco1" >
+      </picture>
+    
+  
       <ol>
         <li>Yendo de la cama al living</li>
         <li>Superheroes</li>
@@ -62,13 +69,14 @@
         <li>Peluca telefonica</li>
         <li>Inconsciente colectivo</li>
       </ol>
-      
+    
     </article>
+  
       
 
     <article class="discografia_article">
       
-      <h3 class="discografia_h3">Clics Modernos</h3>
+      <h3 id="discografia_h3-2">Clics Modernos</h3>
             
       <p>
         <em>
@@ -108,7 +116,10 @@
           trabajo.
         </p>
 
-        <img src="./img/ModernClic.jpg" alt="Disco 2">
+        <picture>
+          <source srcset="img/ModernClicrespo.jpg" media="(max-width: 480px)" >
+          <img src="img/ModernClic.jpg" alt="Disco2" >
+        </picture>
 
         <ol>
           <li>Nos siguen pegando abajo</li>
@@ -121,11 +132,12 @@
           <li>Plateado sobre plateado</li>
           <li>Ojos de video tape</li>
         </ol>
+    
       </article>
       
       <article class="discografia_article">
-        <h3 class="discografia_h3">Piano Bar</h3>
-        
+        <h3 id="discografia_h3-3">Piano Bar</h3>
+      
         <p>
           Piano Bar es el tercer álbum de estudio en solitario del músico
           argentino Charly García, editado en 1984. Fue grabado en su totalidad
@@ -136,7 +148,10 @@
           quedaron registradas en el DVD Charly García Oro.
         </p>
 
-        <img src="./img/PianoBar.jpg" alt="Disco 3">
+        <picture>
+          <source srcset="img/PianoBarrespo.jpg" media="(max-width: 480px)" >
+          <img src="img/PianoBar.jpg" alt="Disco3" >
+        </picture>
 
         <ol>
           <li>Demoliendo hoteles</li>
@@ -150,11 +165,12 @@
           <li>erca de la revolución</li>
           <li>Total interferencia</li>
         </ol>
+     
       </article>
 
       <article class="discografia_article">
-        <h3 class="discografia_h3">El Aguante</h3>
-        
+        <h3 id="discografia_h3-4">El Aguante</h3>
+       
         <p>
           El Aguante es el noveno álbum de estudio en solitario del músico
           argentino Charly García, editado en el año 1998. Una de las
@@ -169,7 +185,10 @@
           Sanitarias.
         </p>
 
-        <img src="./img/ElAguante.jpg" alt="Disco 4">
+        <picture>
+          <source srcset="img/ElAguanterespo.jpg" media="(max-width: 480px)" >
+          <img src="img/ElAguante.jpg" alt="Disco4" >
+        </picture>
 
         <ol>
           <li>El aguante</li>
@@ -183,16 +202,18 @@
           <li>Uno a uno</li>
           <li>Lo que ves es lo que hay</li>
         </ol>
-        
+     
+
+
       </article>
+  
 
-
-      <h2 class="discografia_h2">Estos discos y mucho más</h2>
+      <h2 id="discografia_h2">Estos discos y mucho más</h2>
 
 
       <article class="discografia_article">
 
-      <h3 class="discografia_h3">Spotify</h3>
+      <h3 id="discografia_h3-spo">Spotify</h3>
 
       <iframe id="spotify"
         style="border-radius: 10px"
@@ -210,7 +231,7 @@
 
     <article class="discografia_article">
 
-      <h3 class="discografia_h3">Youtube</h3>
+      <h3 id="discografia_h3-yt">Youtube</h3>
 
       <iframe id="youtube"
         width="560"

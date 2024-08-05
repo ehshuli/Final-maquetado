@@ -24,11 +24,11 @@
 
     <main id="form_main">
 
-        <div class="title">
+        <section class="title">
             <h2>Contacto</h2>
-        </div>
+        </section>
 
-        <div class="content">
+        <section class="content">
 
             <p>
                 Si querés contactar con nosotros por alguna consulta o duda, puedes hacerlo a traves de nuestro correo en: <a href="mailto:info@charlygarcia.com">info@charlygarcia.com</a>.
@@ -54,31 +54,21 @@
                 
                 <br>
                 
-                <p>
-                    Intereses:
-                </p>
-                
-                <br>
-                
                 <label for="shows">Shows</label>
-                <input type="checkbox" id="shows" name="interests" value="shows">
+                <input type="checkbox" id="shows" name="interests[]" value="shows">
                 
                 <label for="nDiscografia">Nueva discografía</label>
-                <input type="checkbox" id="nDiscografia" name="interests" value="nDiscografia">
+                <input type="checkbox" id="nDiscografia" name="interests[]" value="nDiscografia">
                 
                 <label for="entrevistas">Entrevistas</label>
-                <input type="checkbox" id="entrevistas" name="interests" value="entrevistas">
+                <input type="checkbox" id="entrevistas" name="interests[]" value="entrevistas">
                 
                 <label for="merchandising">Merchandising</label>
-                <input type="checkbox" id="merchandising" name="interests" value="merchandising">
+                <input type="checkbox" id="merchandising" name="interests[]" value="merchandising">
                             
                 <br>
 
-                <p>
-                    Podés dejarnos tu opinión aquí debajo:
-                </p>
-
-                <label for="comentarios"></label>
+                <label for="comentarios">Podés dejarnos tu opinión aquí debajo:</label>
                 <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
                 
                 <br>
@@ -86,13 +76,14 @@
                 <label for="archivo">Si eres miembro del club de fans, por favor adjunta una imágen de tu credencial</label>
                 <input type="file" class="files" name="archivo" id="archivo">
 
-                <input type="checkbox" name="accept" id="accept"> <p id="acepto">Acepto que me contacten por el mail proporcionado</p>
+                <input type="checkbox" name="accept" id="accept">
+                <label for="accept">Acepto que me contacten por el mail proporcionado</label>
 
                 <br>
                 
                 <input class="buttons" type="submit" value="Enviar">
             </form>
-        </div>
+        </section>
     </main>
 
     <footer id="form_footer">
